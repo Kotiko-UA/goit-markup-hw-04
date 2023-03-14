@@ -222,16 +222,14 @@ address {
 }
 
 .adv-logo-item {
+    padding: 24px 100px;
     width: calc((100% - 24px * 3) / 4);
+    height: 112px;
     background-color: var(--light);
 
 }
 
-.adv-logo-icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+.adv-logo-icon {}
 
 .adv-list {
 
