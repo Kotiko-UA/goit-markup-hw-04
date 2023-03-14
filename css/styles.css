@@ -53,7 +53,7 @@ address {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
 }
 
 .list {
@@ -152,12 +152,25 @@ address {
 
 /*  /* ----------------------Hero----------------- */
 .hero {
+
+    text-align: center;
+
+}
+
+.overley {
     padding-top: 188px;
     padding-bottom: 188px;
-
-    background-color: var(--title-dark);
-    text-align: center;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(46, 47, 66, 0.7);
+    background-image: linear-gradient(90deg, rgba(46, 47, 66, 0.7035189075630253) 50%, rgba(46, 47, 66, 0.7) 100%), url(../images/people-office-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
 
 .hero-title {
     max-width: 496px;
