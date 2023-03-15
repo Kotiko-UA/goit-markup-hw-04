@@ -57,7 +57,7 @@ address {
 }
 
 .list {
-    list-style: none;
+    list-style: none !important;
 }
 
 .link {
@@ -229,9 +229,7 @@ address {
 
 }
 
-.adv-logo-icon {
-
-}
+.adv-logo-icon {}
 
 .adv-list {
 
@@ -337,7 +335,70 @@ address {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+    margin-bottom: 8px;
 }
+
+.soc-link-box {}
+
+.soc-list {
+    display: flex;
+    gap: 24px;
+}
+
+.soc-item {}
+
+.soc-link {
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    background-color: var(--primary-brand);
+    border-radius: 50%;
+    display: block;
+
+}
+
+/* -------------------Customers----------------- */
+
+
+.customers {
+    padding-top: 292px;
+    padding-bottom: 120px;
+}
+
+.customers-title {
+    margin-bottom: 72px;
+
+    color: var(--title-dark);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.customers-item {
+    width: 168px;
+}
+
+.customers-link {
+    height: 88px;
+    padding: 16px;
+    display: block;
+    text-align: center;
+}
+
+.customers-icon {
+    width: 104px;
+    height: 56px;
+}
+
+
 
 /* ----------------------footer------------------ */
 .footer {
@@ -371,12 +432,35 @@ address {
 }
 
 .footer-text {
+
     color: var(--accent);
     font-size: 16px;
     line-height: 1.5;
     width: 264px;
 
 }
+
+.footer-container {
+    display: flex;
+    gap: 120px;
+}
+
+.footer-soc-title {
+    margin-bottom: 16px;
+
+    color: #FFF;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.soc-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
 
 /* ----------------------PORTFOLIO------------------ */
 .portfolio {
