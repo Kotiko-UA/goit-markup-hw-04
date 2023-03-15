@@ -214,22 +214,6 @@ address {
 
 .adv-title {}
 
-.adv-logo-list {
-    display: flex;
-    gap: 24px;
-    margin-bottom: 8px;
-
-}
-
-.adv-logo-item {
-    padding: 24px 100px;
-    width: calc((100% - 24px * 3) / 4);
-    height: 112px;
-    background-color: var(--light);
-
-}
-
-.adv-logo-icon {}
 
 .adv-list {
 
@@ -239,6 +223,14 @@ address {
 
 .adv-item {
     width: calc((100% - 24px * 3) / 4);
+}
+
+.adv-item-bg {
+    margin-bottom: 8px;
+    padding: 24px 100px;
+    height: 112px;
+    background-color: var(--light);
+
 }
 
 .adv-item-title {
