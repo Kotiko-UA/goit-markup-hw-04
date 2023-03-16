@@ -463,7 +463,11 @@ address {
 
 .footer-container {
     display: flex;
-    gap: 120px;
+
+}
+
+.social {
+    margin-right: 120px;
 }
 
 .footer-soc-title {
@@ -478,8 +482,13 @@ address {
 
 }
 
+.footer .soc-list {
+    gap: 16px;
+}
+
 .footer .soc-link {
     background-color: rgba(255, 255, 255, 0.1);
+
 }
 
 .footer .soc-link:hover,
