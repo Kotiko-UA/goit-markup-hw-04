@@ -354,7 +354,7 @@ address {
 
 
 .customers {
-    padding-top: 292px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -384,9 +384,23 @@ address {
     padding: 16px;
     display: block;
     text-align: center;
+    border: 1px solid var(--subtle-text);
+    border-radius: 4px;
+
 }
 
-.customers-icon {}
+
+.customers-link:hover,
+.customers-link:focus {
+    border: 1px solid var(--pressed-state);
+    border-radius: 4px;
+
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+    fill: var(--pressed-state);
+}
 
 
 
