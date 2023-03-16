@@ -203,8 +203,8 @@ address {
 
 .button:hover,
 .button:focus {
-    color: var(--primary-brand);
-    background-color: var(--light);
+    color: var(--light);
+    background-color: var(--pressed-state);
 }
 
 /* ----------------------advansed------------------  */
@@ -350,6 +350,15 @@ address {
 
 }
 
+.team-soc-icon {
+    fill: var(--light);
+}
+
+.soc-link:hover,
+.soc-link:focus {
+    background-color: var(--pressed-state);
+}
+
 /* -------------------Customers----------------- */
 
 
@@ -395,6 +404,10 @@ address {
     border: 1px solid var(--pressed-state);
     border-radius: 4px;
 
+}
+
+.customers-icon {
+    fill: var(--subtle-text);
 }
 
 .customers-icon:hover,
@@ -465,6 +478,14 @@ address {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.footer .soc-link:hover,
+.footer .soc-link:focus {
+    background-color: var(--success);
+}
+
+.footer-soc-icon {
+    fill: var(--light);
+}
 
 /* ----------------------PORTFOLIO------------------ */
 .portfolio {
