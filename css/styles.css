@@ -410,8 +410,12 @@ address {
     fill: var(--subtle-text);
 }
 
-.customers-icon:hover,
-.customers-icon:focus {
+.customers-link:hover .customers-icon {
+    fill: var(--pressed-state);
+}
+
+
+.customers-link:focus .customers-icon {
     fill: var(--pressed-state);
 }
 
